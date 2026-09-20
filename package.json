@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "tapiest-colosseum-mcp": "./dist/index.js"
+    "tapiest-colosseum-mcp": "dist/index.js"
   },
   "files": [
     "dist",
