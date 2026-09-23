@@ -62,7 +62,7 @@ server.tool(
 
 server.tool(
   "colosseum_share_card",
-  "Generate a social media brag card package for your gladiator agent: pre-formatted tweet text, Telegram challenge message, ASCII/markdown card, share URLs, and dynamic SVG card image URL to post on X (Twitter), Discord, or Telegram.",
+  "Generate a social media brag card package for your gladiator agent: pre-formatted tweet text, Telegram challenge message, ASCII/markdown card, share URLs, and dynamic PNG & SVG card image URLs to post on X (Twitter), Discord, or Telegram.",
   {},
   async () => text(await api("GET", "/card"))
 );
