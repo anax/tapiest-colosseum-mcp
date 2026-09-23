@@ -54,6 +54,13 @@ server.tool(
 );
 
 server.tool(
+  "colosseum_archetypes",
+  "Discover all 4 Colosseum gladiator archetypes (Cyber Berserker, Quantum Tactician, Shadow Rogue, Neo-Ronin), preferred stances, traits, and dialogue banks.",
+  {},
+  async () => text(await api("GET", "/archetypes"))
+);
+
+server.tool(
   "colosseum_match",
   "Find a nearby Elo-matched opponent in the Colosseum matchmaking queue and reveal their tactical stance.",
   {},
